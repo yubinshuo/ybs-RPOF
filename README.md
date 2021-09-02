@@ -1,6 +1,4 @@
 [README.md](https://github.com/yubinshuo/ybs-RPOF/files/7098097/README.md)
-# ybs-RPOF
-Optimization of reaction force field (ReaxFF) parameters by GA, SA, PSO, SOPPI, etc.
 #  ybs-RPOF
 ## Mixed ReaxFF-Parameters Optimization Framework for reaction force field through SA, GA, PAO, SOPPI etc.
 In this repository:
