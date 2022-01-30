@@ -1,0 +1,107 @@
+CHARGE
+#  HMX1
+HMX1                 0.01    1     0.133
+#  DNTF1
+DNTF1                0.01    1    -0.081
+#  PETN1
+PETN1                0.01    1     0.078
+#  TATB1
+TATB1                0.01    1     0.166
+#  RDX1
+RDX1                 0.01    1     0.059
+#  TNT1
+TNT1                 0.01    1     0.061
+ENDCHARGE
+
+CELL_PARAMETERS
+#NTO-alpha-111  0.001   a    5.1233
+#NTO-alpha-111  0.001   b    10.3140
+#NTO-alpha-111  0.001   c    17.9980
+#NTO-alpha-111  0.0005   r    1.91
+#NTO-alpha-111  10   p    1
+ENDCELL_PARAMETERS
+
+GEOMETRY 
+# NTO
+NTO                           0.005          1   2               1.06      
+ENDGEOMETRY
+
+HEATFO
+NH3      0.5     -9.10
+H2  1  0
+O2  1  0
+N2  1  0
+#graphite-221  1  0
+H   0.5  0 52.0
+O   0.5  0 60.0
+N   0.2  0 120.0
+C   0.5  0 173.0
+ENDHEATFO
+
+ENERGY
+########### bond N-C
+# CH3NH2_1b
+1.0     + or-CH3NH2_1b_90 /1 - or-CH3NH2_opt /1                                                                  350.955
+1.0     + or-CH3NH2_1b_105 /1 - or-CH3NH2_opt /1                                                                 126.552
+0.5     + or-CH3NH2_1b_120 /1 - or-CH3NH2_opt /1                                                                  35.489
+0.2     + or-CH3NH2_1b_130 /1 - or-CH3NH2_opt /1                                                                  10.711
+0.2     + or-CH3NH2_1b_135 /1 - or-CH3NH2_opt /1                                                                   4.521
+0.2     + or-CH3NH2_1b_140 /1 - or-CH3NH2_opt /1                                                                   1.185
+0.2     + or-CH3NH2_1b_145 /1 - or-CH3NH2_opt /1                                                                   0.012
+0.2     + or-CH3NH2_1b_150 /1 - or-CH3NH2_opt /1                                                                   0.463
+0.2     + or-CH3NH2_1b_155 /1 - or-CH3NH2_opt /1                                                                   2.117
+0.2     + or-CH3NH2_1b_160 /1 - or-CH3NH2_opt /1                                                                   4.648
+0.2     + or-CH3NH2_1b_165 /1 - or-CH3NH2_opt /1                                                                   7.808
+0.2     + or-CH3NH2_1b_170 /1 - or-CH3NH2_opt /1                                                                  11.406
+0.2     + or-CH3NH2_1b_180 /1 - or-CH3NH2_opt /1                                                                  19.344
+0.5     + or-CH3NH2_1b_190 /1 - or-CH3NH2_opt /1                                                                  27.587
+0.5     + or-CH3NH2_1b_204 /1 - or-CH3NH2_opt /1                                                                  39.699
+0.5     + or-CH3NH2_1b_220 /1 - or-CH3NH2_opt /1                                                                  51.128
+0.5     + or-CH3NH2_1b_235 /1 - or-CH3NH2_opt /1                                                                  61.468
+0.5     + or-CH3NH2_1b_250 /1 - or-CH3NH2_opt /1                                                                  70.580
+# CH2NH_1b
+1.0     + or-CH2NH_1b_90 /1 - or-CH2NH_opt /1                                                                    237.510
+0.5     + or-CH2NH_1b_100 /1 - or-CH2NH_opt /1                                                                    97.397
+0.5     + or-CH2NH_1b_105 /1 - or-CH2NH_opt /1                                                                    56.890
+0.5     + or-CH2NH_1b_110 /1 - or-CH2NH_opt /1                                                                    29.869
+0.2     + or-CH2NH_1b_114 /1 - or-CH2NH_opt /1                                                                    13.011
+0.2     + or-CH2NH_1b_120 /1 - or-CH2NH_opt /1                                                                     3.763
+0.2     + or-CH2NH_1b_125 /1 - or-CH2NH_opt /1                                                                     0.193
+0.2     + or-CH2NH_1b_130 /1 - or-CH2NH_opt /1                                                                     0.831
+0.2     + or-CH2NH_1b_135 /1 - or-CH2NH_opt /1                                                                     4.532
+0.2     + or-CH2NH_1b_140 /1 - or-CH2NH_opt /1                                                                    10.420
+0.5     + or-CH2NH_1b_150 /1 - or-CH2NH_opt /1                                                                    26.264
+0.5     + or-CH2NH_1b_160 /1 - or-CH2NH_opt /1                                                                    44.715
+0.5     + or-CH2NH_1b_175 /1 - or-CH2NH_opt /1                                                                    73.080
+0.5     + or-CH2NH_1b_190 /1 - or-CH2NH_opt /1                                                                    99.557
+1.0     + or-CH2NH_1b_200 /1 - or-CH2NH_opt /1                                                                   115.551
+1.0     + or-CH2NH_1b_215 /1 - or-CH2NH_opt /1                                                                   136.966
+1.0     + or-CH2NH_1b_229 /1 - or-CH2NH_opt /1                                                                   155.381
+1.0     + or-CH2NH_1b_245 /1 - or-CH2NH_opt /1                                                                   171.181
+# HCN_1b
+1.0     + or-HCN_1b_85 /1 - or-HCN_opt /1                                                                        259.820
+1.0     + or-HCN_1b_90 /1 - or-HCN_opt /1                                                                        159.141
+0.5     + or-HCN_1b_95 /1 - or-HCN_opt /1                                                                         90.336
+0.5     + or-HCN_1b_100 /1 - or-HCN_opt /1                                                                        45.397
+0.2     + or-HCN_1b_105 /1 - or-HCN_opt /1                                                                        18.230
+0.2     + or-HCN_1b_110 /1 - or-HCN_opt /1                                                                         4.258
+0.2     + or-HCN_1b_114 /1 - or-HCN_opt /1                                                                        -0.014
+0.2     + or-HCN_1b_120 /1 - or-HCN_opt /1                                                                         2.748
+0.2     + or-HCN_1b_125 /1 - or-HCN_opt /1                                                                        10.553
+0.5     + or-HCN_1b_130 /1 - or-HCN_opt /1                                                                        21.882
+0.5     + or-HCN_1b_140 /1 - or-HCN_opt /1                                                                        50.722
+0.5     + or-HCN_1b_150 /1 - or-HCN_opt /1                                                                        82.970
+1.0     + or-HCN_1b_160 /1 - or-HCN_opt /1                                                                       115.085
+1.0     + or-HCN_1b_180 /1 - or-HCN_opt /1                                                                       172.628
+1.0     + or-HCN_1b_190 /1 - or-HCN_opt /1                                                                       196.951
+1.0     + or-HCN_1b_200 /1 - or-HCN_opt /1                                                                       218.189
+ENDENERGY
+
+REACTION_ENERGY
+0.5     + DNTF1 /1.0 - NO2 /1.0 - DNTF1-NO2 /1.0                                                                   -62.0
+0.5     + HMX1 /1.0 - NO2 /1.0 - HMX1-NO2 /1.0                                                                     -46.4
+0.5     + PETN1 /1.0 - NO2 /1.0 - PETN1-NO2 /1.0                                                                   -40.5
+0.5     + RDX1 /1.0 - NO2 /1.0 - RDX1-NO2 /1.0                                                                     -43.5
+0.5     + TATB1 /1.0 - NO2 /1.0 - TATB1-NO2 /1.0                                                                   -72.5
+0.5     + TNT1 /1.0 - NO2 /1.0 - TNT1-NO2 /1.0                                                                     -63.8
+ENDREACTION_ENERGY
